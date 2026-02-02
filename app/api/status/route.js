@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server'
 
+export const dynamic = 'force-dynamic'
+
 const KIE_API_KEY = process.env.KIE_API_KEY
 
 export async function GET(request) {
